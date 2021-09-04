@@ -1,0 +1,29 @@
+.heroSection {
+  display: flex;
+  background: url(../images/hero-section-bg.svg) no-repeat center;
+  height: 100vh;
+  color: aliceblue;
+  min-height: 500px;
+}
+
+.heroContainer {
+  max-width: 1360px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.content {
+  text-align: end;
+}
+.text1 {
+  font-size: 1.1rem;
+}
+.text2 {
+  font-size: 4.8rem;
+  font-weight: 500;
+}
+.text3 {
+  font-size: 1.7rem;
+}

@@ -3,6 +3,6 @@ li {
 }
 li:hover {
   transition: ease-in-out 0.2s;
-  color: cornflowerblue;
+  color: #5390d9;
   cursor: pointer;
 }

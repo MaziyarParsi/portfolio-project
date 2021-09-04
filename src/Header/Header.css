@@ -1,12 +1,12 @@
 .headerDiv {
-  background-color: crimson;
+  background-color: #e63946;
   width: 100%;
   position: fixed;
 }
 .container {
-  max-width: 1920px;
+  max-width: 1360px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin: auto;
 }
