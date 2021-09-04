@@ -1,0 +1,8 @@
+li {
+  color: white;
+}
+li:hover {
+  transition: ease-in-out 0.2s;
+  color: cornflowerblue;
+  cursor: pointer;
+}

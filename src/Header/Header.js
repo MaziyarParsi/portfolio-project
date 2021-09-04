@@ -1,15 +1,13 @@
 import React from "react"
 import "./Header.css"
+import Navbar from "../Navbar/Navbar"
+import Logo from "../Logo/Logo"
 
 const Header = () => (
   <div className="headerDiv">
-    <div>
-      <ul>
-        <li>خانه</li>
-        <li>درباره من</li>
-        <li>خدمات</li>
-        <li>مهارت ها</li>
-      </ul>
+    <div className="container">
+      <Logo />
+      <Navbar />
     </div>
   </div>
 )
