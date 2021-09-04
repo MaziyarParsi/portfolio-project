@@ -1,0 +1,14 @@
+.headerDiv {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  background-color: blue;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+}
