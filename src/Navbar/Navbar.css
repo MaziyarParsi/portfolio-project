@@ -1,8 +1,0 @@
-li {
-  color: white;
-}
-li:hover {
-  transition: ease-in-out 0.2s;
-  color: #5390d9;
-  cursor: pointer;
-}

@@ -2,19 +2,29 @@
   background-color: #e63946;
   width: 100%;
   position: fixed;
+  padding: 0.5rem 0;
 }
 .container {
-  max-width: 1360px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  max-width: 1440px;
+  padding: 0 80px;
   margin: auto;
 }
-ul {
-  list-style-type: none;
+.headerDiv .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-li {
+.headerDiv .headerMenu li {
+  color: white;
+  list-style-type: none;
   display: inline-block;
-  margin-left: 0.5rem;
-  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+.headerDiv .headerMenu li:hover {
+  transition: ease-in-out 0.3s;
+  color: #0077b6;
+  cursor: pointer;
 }
