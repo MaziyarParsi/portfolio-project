@@ -2,21 +2,21 @@
   display: flex;
   background: url(../images/hero-section-bg.svg) no-repeat center;
   height: 100vh;
-  color: aliceblue;
+  color: whitesmoke;
   min-height: 500px;
 }
 
-.heroContainer {
-  max-width: 1360px;
+.heroSection .container {
+  margin: auto 40px auto 0px;
+  flex-grow: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
-
-.content {
+.heroSection .homeContent {
   text-align: end;
 }
+
 .text1 {
   font-size: 1.1rem;
 }
@@ -26,4 +26,12 @@
 }
 .text3 {
   font-size: 1.7rem;
+}
+.text3 span {
+  color: #0077b6;
+}
+
+.heroSectionImage {
+  height: 329px;
+  width: 600px;
 }

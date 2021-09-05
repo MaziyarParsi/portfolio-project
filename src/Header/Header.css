@@ -1,8 +1,8 @@
 .headerDiv {
-  background-color: #e63946;
+  /* background-color: #e63946; */
   width: 100%;
   position: fixed;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
 }
 .container {
   max-width: 1440px;
@@ -20,7 +20,7 @@
   display: inline-block;
   font-size: 1.2rem;
   font-weight: 400;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .headerDiv .headerMenu li:hover {
