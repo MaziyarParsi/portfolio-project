@@ -1,8 +1,15 @@
 .headerDiv {
-  /* background-color: #e63946; */
   width: 100%;
   position: fixed;
-  padding: 1rem 0;
+  padding: 0.4rem 0rem;
+  background: transparent;
+  transition: ease-in-out 0.3s;
+}
+.headerDiv.scrolled {
+  transition: ease-in-out 0.3s;
+  /* background-color: #e63946; */
+  background-color: #0a0908;
+  padding: 0.7rem 0;
 }
 .container {
   max-width: 1440px;
