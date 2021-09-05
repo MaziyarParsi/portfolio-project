@@ -1,6 +1,6 @@
 import React from "react"
 import "./HeroSectionImage.css"
-import heroSectionImage from "../images/hero-section.png"
+import heroSectionImage from "../../images/hero-section.png"
 
 const HeroSectionImage = () => (
   <div>
