@@ -7,7 +7,6 @@
 }
 
 .heroSection .container {
-  margin: auto 40px auto 0px;
   flex-grow: 1;
   display: flex;
   justify-content: space-between;
@@ -16,22 +15,9 @@
 .heroSection .homeContent {
   text-align: end;
 }
-
-.text1 {
-  font-size: 1.1rem;
-}
-.text2 {
-  font-size: 4.8rem;
-  font-weight: 500;
-}
-.text3 {
-  font-size: 1.7rem;
-}
-.text3 span {
-  color: #0077b6;
-}
-
-.heroSectionImage {
-  height: 329px;
-  width: 600px;
+.homeContent {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
 }

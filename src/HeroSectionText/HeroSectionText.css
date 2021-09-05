@@ -1,0 +1,16 @@
+.text1 {
+  font-size: 1.1rem;
+}
+.text2 {
+  font-size: 4.8rem;
+  font-weight: 500;
+}
+.text3 {
+  font-size: 1.7rem;
+}
+.text3 span {
+  color: #0077b6;
+}
+.textArea {
+  margin-top: 2%;
+}
