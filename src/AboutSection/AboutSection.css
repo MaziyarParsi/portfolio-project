@@ -11,10 +11,11 @@
   position: absolute;
   bottom: 0px;
   left: 50%;
-  width: 180px;
+  width: 240px;
   height: 2px;
   background: #111;
   transform: translateX(-50%);
+  border-radius: 10px;
 }
 .aboutSection .title::after {
   content: " من کی هستم؟";
@@ -23,7 +24,7 @@
   left: 50%;
   font-size: 16px;
   font-weight: 600;
-  padding: 5px;
+  padding: 5px 16px;
   background: #fff;
   color: #0077b6;
   transform: translateX(-50%);
@@ -49,10 +50,10 @@ section.aboutSection {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .aboutMeText {
   font-size: 24px;
+  font-weight: 500;
   margin-bottom: 16px;
 }
