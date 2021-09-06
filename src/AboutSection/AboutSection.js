@@ -1,12 +1,18 @@
 import React from "react"
 import "./AboutSection.css"
+import aboutSectionPicture from "../images/me.jpg"
 
 const AboutSection = () => {
   return (
-    <section className="heroSection">
+    <section className="aboutSection">
       <div className="container">
-        <HeroSectionImage />
-        <HeroSectionText />
+        <h2 className="title">درباره من</h2>
+        <div className="aboutContent">
+          <div className="pictureColumn">
+            <img src={aboutSectionPicture}></img>
+          </div>
+          <div className="textColumn"></div>
+        </div>
       </div>
     </section>
   )

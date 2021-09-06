@@ -14,7 +14,7 @@ const HeroSectionText = () => {
             className="typical"
             wrapper="p"
             loop={Infinity}
-            steps={["طراح سایت", 1000, "برنامه نویس وب", 1000, "طراح وردپرس", 1000]}
+            steps={["برنامه نویس فرانت اند", 1000, "طراحی سایت وردپرس", 1000]}
           />
         </p>
       </div>

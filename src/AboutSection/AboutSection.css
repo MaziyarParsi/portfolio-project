@@ -1,0 +1,39 @@
+.aboutSection .title {
+  position: relative;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-bottom: 28px;
+}
+.aboutSection .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 2px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.aboutSection .title::after {
+  content: " من کی هستم؟";
+  bottom: -14px;
+  position: absolute;
+  left: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  background: #fff;
+  color: #0077b6;
+  transform: translateX(-50%);
+}
+.aboutSection .aboutContent .pictureColumn img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+section.aboutSection {
+  padding: 1rem 0;
+}
