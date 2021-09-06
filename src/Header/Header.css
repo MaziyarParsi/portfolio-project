@@ -1,5 +1,6 @@
 .headerDiv {
   width: 100%;
+  z-index: 999;
   position: fixed;
   padding: 0.4rem 0rem;
   background: transparent;
