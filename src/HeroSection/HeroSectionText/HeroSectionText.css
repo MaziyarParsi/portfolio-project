@@ -13,6 +13,7 @@
 }
 .typical {
   color: #0077b6;
+  direction: rtl;
 }
 .textArea {
   margin-top: 5%;

@@ -28,6 +28,13 @@
   color: #0077b6;
   transform: translateX(-50%);
 }
+.aboutSection .aboutContent .pictureColumn {
+  width: 45%;
+}
+.aboutSection .aboutContent .textColumn {
+  width: 55%;
+  direction: rtl;
+}
 .aboutSection .aboutContent .pictureColumn img {
   height: 400px;
   width: 400px;
@@ -36,4 +43,16 @@
 }
 section.aboutSection {
   padding: 1rem 0;
+}
+
+.aboutSection .aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aboutMeText {
+  font-size: 24px;
+  margin-bottom: 16px;
 }
