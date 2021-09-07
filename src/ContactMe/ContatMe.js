@@ -7,7 +7,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const ContactMe = () => {
   return (
-    <section className="contactMeSection">
+    <section className="contactMeSection" id="contactMeSection">
       <div className="container">
         <h2 className="title">ارتباط با من</h2>
         <div className="contactMeContent">

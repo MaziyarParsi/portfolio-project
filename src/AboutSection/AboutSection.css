@@ -29,6 +29,9 @@
   color: #0077b6;
   transform: translateX(-50%);
 }
+.aboutSection {
+  padding: 3rem 0;
+}
 .aboutSection .aboutContent .pictureColumn {
   width: 45%;
 }

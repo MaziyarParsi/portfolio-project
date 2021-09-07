@@ -5,7 +5,7 @@ import aboutSectionPicture from "../images/me.jpg"
 
 const AboutSection = () => {
   return (
-    <section className="aboutSection">
+    <section className="aboutSection" id="aboutSection">
       <div className="container">
         <h2 className="title">درباره من</h2>
         <div className="aboutContent">
