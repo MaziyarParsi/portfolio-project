@@ -14,18 +14,6 @@ const MyServices = () => {
           <div className="card">
             <div className="box">
               <i>
-                <FontAwesomeIcon icon={faBrush} />
-              </i>
-              <div className="textTitle"> طراحی وبسایت</div>
-              <p>
-                با کمک من، شما میتوانید سایت شخصی یا کاری خود را در سطح وب پیاده سازی کرده و برای
-                عموم به مشاهده بگذارید
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="box">
-              <i>
                 <FontAwesomeIcon icon={faCode} />
               </i>
               <div className="textTitle"> برنامه نویسی وب</div>
@@ -44,6 +32,18 @@ const MyServices = () => {
               <p>
                 برای طراحی ظاهر سایت یا اپلیکیشن خود، میتوانید روی مهارت های من برای طراحی رابطه
                 کاربری حساب باز کنید
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="box">
+              <i>
+                <FontAwesomeIcon icon={faBrush} />
+              </i>
+              <div className="textTitle"> طراحی وبسایت</div>
+              <p>
+                با کمک من، شما میتوانید سایت شخصی یا کاری خود را در سطح وب پیاده سازی کرده و برای
+                عموم به مشاهده بگذارید
               </p>
             </div>
           </div>
