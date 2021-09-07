@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../Header/Header"
 import HeroSection from "../HeroSection/HeroSection"
 import AboutSection from "../AboutSection/AboutSection"
+import MyServices from "../MySecvices/MyServices"
 import "./App.css"
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <HeroSection />
       <AboutSection />
+      <MyServices />
     </div>
   )
 }

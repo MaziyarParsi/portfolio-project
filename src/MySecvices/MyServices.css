@@ -1,0 +1,88 @@
+.myServicesSection .title {
+  position: relative;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-bottom: 28px;
+}
+.myServicesSection .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 320px;
+  height: 2px;
+  background: #fff;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+.myServicesSection .title::after {
+  content: " خدماتی که به شما ارائه میکنم";
+  bottom: -14px;
+  position: absolute;
+  left: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 16px;
+  background: #0a0908;
+  color: #0077b6;
+  transform: translateX(-50%);
+}
+
+.myServicesSection .myServicesContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.myServicesSection {
+  padding: 2rem 0;
+}
+.myServicesSection {
+  background-color: #0a0908;
+  color: #fff;
+}
+
+.myServicesSection .myServicesContent .card {
+  width: calc(33%-10px);
+  background-color: #222;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0px 0.8rem;
+  cursor: pointer;
+}
+
+.myServicesSection .myServicesContent .box {
+  padding: 32px 32px;
+}
+.myServicesSection .myServicesContent .box {
+  transition: all ease-in-out 0.3s;
+}
+.myServicesSection .myServicesContent .box:hover {
+  transition: all ease-in-out 0.3s;
+  transform: scale(1.05);
+}
+.myServicesSection .myServicesContent .card {
+  transition: all ease-in-out 0.3s;
+}
+.myServicesSection .myServicesContent .card:hover {
+  transition: all ease-in-out 0.3s;
+  transform: scale(1.05);
+  background: #0077b6;
+}
+.myServicesSection .myServicesContent .card i {
+  font-size: 2.6rem;
+  color: #0077b6;
+  transition: 0.3s ease-in-out;
+}
+.myServicesSection .myServicesContent .card:hover i {
+  color: #fff;
+}
+.myServicesSection .myServicesContent .textTitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.myServicesSection .myServicesContent p {
+  font-weight: 300;
+}
