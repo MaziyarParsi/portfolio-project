@@ -36,7 +36,7 @@
   justify-content: space-between;
 }
 section.myServicesSection {
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 .myServicesSection {
   background-color: #0a0908;
@@ -49,7 +49,7 @@ section.myServicesSection {
   text-align: center;
   border-radius: 5px;
   margin: 0px 0.8rem;
-  cursor: pointer;
+  cursor: default;
 }
 
 .myServicesSection .myServicesContent .box {
