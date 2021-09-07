@@ -4,6 +4,7 @@ import HeroSection from "../HeroSection/HeroSection"
 import AboutSection from "../AboutSection/AboutSection"
 import MyServices from "../MySecvices/MyServices"
 import ContactMe from "../ContactMe/ContatMe"
+import Footer from "../Footer/Footer"
 import "./App.css"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <AboutSection />
       <MyServices />
       <ContactMe />
+      <Footer />
     </div>
   )
 }

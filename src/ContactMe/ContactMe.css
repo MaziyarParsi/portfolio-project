@@ -3,7 +3,6 @@
   text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
-  margin: 2rem 0px;
   padding-bottom: 28px;
 }
 .contactMeSection .title::before {
@@ -29,12 +28,16 @@
   color: #0077b6;
   transform: translateX(-50%);
 }
+.contactMeSection {
+  padding: 3rem 0;
+}
 
 .contactMeSection .contactMeContent {
   direction: rtl;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: 3rem 0;
 }
 .contactMeSection .contactMeContent .rightColumn {
   width: calc(50% - 30px);
@@ -70,4 +73,61 @@ p.infoText {
   font-weight: 400;
   color: #333;
   font-size: 1rem;
+}
+
+.contactMeSection .contactMeContent .leftColumn {
+  width: calc(50% - 30px);
+}
+
+.contactMeSection .leftColumn form .fields {
+  display: flex;
+}
+.contactMeSection .leftColumn form .field,
+.contactMeSection .leftColumn form .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contactMeSection .leftColumn form .name {
+  margin-left: 5px;
+}
+.contactMeSection .leftColumn form .email {
+  margin-right: 5px;
+}
+.contactMeSection .leftColumn form .field input,
+.contactMeSection .leftColumn .textArea textarea {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid lightslategray;
+  outline: none;
+  padding: 0 1rem;
+}
+.contactMeSection .leftColumn form .textArea {
+  height: 80px;
+  width: 100%;
+}
+.contactMeSection .leftColumn form .textArea textarea {
+  padding-top: 10px;
+  resize: none;
+}
+.contactMeSection .leftColumn form .button {
+  height: 48px;
+  width: 170px;
+}
+.contactMeSection .leftColumn form .button button {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #0077b6;
+  background-color: #0077b6;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: all ease-in-out 0.3s;
+}
+.contactMeSection .leftColumn form .button button:hover {
+  transition: all ease-in-out 0.3s;
+  color: #0077b6;
+  background-color: #fff;
+  cursor: pointer;
 }

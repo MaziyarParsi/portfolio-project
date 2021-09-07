@@ -49,27 +49,28 @@ const ContactMe = () => {
 
           <div className="leftColumn">
             <div className="text"> به من پیام دهید</div>
+
             <form action="#">
+              <div className="fields">
+                <div className="name field">
+                  <input type="text" placeholder="نام شما" required></input>
+                </div>
+                <div className="email field">
+                  <input type="text" placeholder="ایمیل شما" required></input>
+                </div>
+              </div>
               <div className="field">
-                <div className="nameField">
-                  <input type="text" placeholder="نام شما" required></input>
-                </div>
-                <div className="nameField">
-                  <input type="text" placeholder="نام شما" required></input>
-                </div>
-                <div className="field">
-                  <input type="text" placeholder="موضوع پیام " required></input>
-                </div>
-                <div className="textAreaField" required>
-                  <textarea
-                    cols="30"
-                    rows="10"
-                    placeholder="در اینجا میتوانید پیام را بنویسید "
-                  ></textarea>
-                </div>
-                <div className="fieldButton">
-                  <button type="submit"> تایید پیام</button>
-                </div>
+                <input type="text" placeholder="موضوع پیام " required></input>
+              </div>
+              <div className="textArea field" required>
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="در اینجا میتوانید پیام  خود را بنویسید "
+                ></textarea>
+              </div>
+              <div className="button">
+                <button type="submit"> تایید پیام</button>
               </div>
             </form>
           </div>

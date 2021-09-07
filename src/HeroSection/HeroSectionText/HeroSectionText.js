@@ -4,7 +4,7 @@ import Typical from "react-typical"
 
 const HeroSectionText = () => {
   return (
-    <div className="textArea">
+    <div className="heroTextArea">
       <div className="text1">سلام، به وبسایت شخصی خوش اومدید. اسم من</div>
       <div className="text2">مازیار پارسی</div>
       <div className="text3">
