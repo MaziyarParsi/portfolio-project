@@ -34,7 +34,7 @@ const Header = () => {
           <HashLink to="/AboutSection#aboutSection" scroll={(el) => scrollWithOffset(el)}>
             <li>درباره من</li>
           </HashLink>
-          <HashLink to="/HeroSection#heroSection">
+          <HashLink to="/HeroSection#heroSection" scroll={(el) => scrollWithOffset(el)}>
             <li>خانه</li>
           </HashLink>
         </ul>
