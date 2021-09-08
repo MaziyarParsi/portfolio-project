@@ -65,7 +65,7 @@ const ContactMe = () => {
                 </i>
                 <div className="info">
                   <div className="head"> آدرس</div>
-                  <div className="subTitle"> تهران شهرک غرب</div>
+                  <div className="subTitle"> مازندران، بهشهر</div>
                 </div>
               </div>
               <div className="row">
@@ -110,6 +110,7 @@ const ContactMe = () => {
                   cols="30"
                   rows="10"
                   placeholder="در اینجا میتوانید پیام  خود را بنویسید "
+                  required
                 ></textarea>
               </div>
               <div className="button">
