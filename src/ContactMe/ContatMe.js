@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { faUser } from "@fortawesome/free-solid-svg-icons"
 import "./ContactMe.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -6,17 +6,28 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const ContactMe = () => {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [subject, setSubject] = useState("")
+  const [description, setDescription] = useState("")
+
   const getNameInput = (event) => {
-    console.log(event.target.value)
+    setName(event.target.value)
   }
   const getEmailInput = (event) => {
-    console.log(event.target.value)
+    setEmail(event.target.value)
   }
   const getsubjectInput = (event) => {
-    console.log(event.target.value)
+    setSubject(event.target.value)
   }
   const getTextareaInput = (event) => {
-    console.log(event.target.value)
+    setDescription(event.target.value)
+  }
+  const handleSubmitButton = () => {
+    console.log(name)
+    console.log(email)
+    console.log(subject)
+    console.log(description)
   }
 
   return (
@@ -93,7 +104,7 @@ const ContactMe = () => {
                 ></textarea>
               </div>
               <div className="button">
-                <button type="submit"> تایید پیام</button>
+                <button onClick={handleSubmitButton}>تایید پیام</button>
               </div>
             </form>
           </div>
