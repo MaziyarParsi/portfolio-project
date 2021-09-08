@@ -24,10 +24,13 @@ const ContactMe = () => {
     setDescription(event.target.value)
   }
   const handleSubmitButton = () => {
-    console.log(name)
-    console.log(email)
-    console.log(subject)
-    console.log(description)
+    console.log(name, email, subject, description)
+    resetInputValues()
+    window.alert("Thanks! i will answer you as soon as possible")
+  }
+
+  const resetInputValues = () => {
+    document.forms["contactMeForm"].reset()
   }
 
   return (
@@ -74,9 +77,9 @@ const ContactMe = () => {
           <div className="leftColumn">
             <div className="text"> به من پیام دهید</div>
 
-            <form action="#">
+            <form action="#" name="contactMeForm">
               <div className="fields">
-                <div className="name field">
+                <div className="name field" id="name">
                   <input type="text" placeholder="نام شما" required onChange={getNameInput}></input>
                 </div>
                 <div className="email field">
@@ -104,7 +107,9 @@ const ContactMe = () => {
                 ></textarea>
               </div>
               <div className="button">
-                <button onClick={handleSubmitButton}>تایید پیام</button>
+                <button type="button" onClick={handleSubmitButton}>
+                  تایید پیام
+                </button>
               </div>
             </form>
           </div>
