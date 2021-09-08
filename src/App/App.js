@@ -6,16 +6,19 @@ import MyServices from "../MySecvices/MyServices"
 import ContactMe from "../ContactMe/ContatMe"
 import Footer from "../Footer/Footer"
 import "./App.css"
+import { BrowserRouter, Route, Link } from "react-router-dom"
 
 function App() {
   return (
     <div>
-      <Header />
-      <HeroSection />
-      <AboutSection />
-      <MyServices />
-      <ContactMe />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <HeroSection />
+        <AboutSection />
+        <MyServices />
+        <ContactMe />
+        <Footer />
+      </BrowserRouter>
     </div>
   )
 }
