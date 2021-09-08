@@ -6,6 +6,19 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const ContactMe = () => {
+  const getNameInput = (event) => {
+    console.log(event.target.value)
+  }
+  const getEmailInput = (event) => {
+    console.log(event.target.value)
+  }
+  const getsubjectInput = (event) => {
+    console.log(event.target.value)
+  }
+  const getTextareaInput = (event) => {
+    console.log(event.target.value)
+  }
+
   return (
     <section className="contactMeSection" id="contactMeSection">
       <div className="container">
@@ -53,16 +66,26 @@ const ContactMe = () => {
             <form action="#">
               <div className="fields">
                 <div className="name field">
-                  <input type="text" placeholder="نام شما" required></input>
+                  <input type="text" placeholder="نام شما" required onChange={getNameInput}></input>
                 </div>
                 <div className="email field">
-                  <input type="text" placeholder="ایمیل شما" required></input>
+                  <input
+                    type="text"
+                    placeholder="ایمیل شما"
+                    required
+                    onChange={getEmailInput}
+                  ></input>
                 </div>
               </div>
               <div className="field">
-                <input type="text" placeholder="موضوع پیام " required></input>
+                <input
+                  type="text"
+                  placeholder="موضوع پیام "
+                  required
+                  onChange={getsubjectInput}
+                ></input>
               </div>
-              <div className="textArea field" required>
+              <div className="textArea field" required onChange={getTextareaInput}>
                 <textarea
                   cols="30"
                   rows="10"
