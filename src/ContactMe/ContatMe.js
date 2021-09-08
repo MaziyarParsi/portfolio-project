@@ -24,13 +24,19 @@ const ContactMe = () => {
     setDescription(event.target.value)
   }
   const handleSubmitButton = () => {
-    console.log(name, email, subject, description)
-    resetInputValues()
-    window.alert("Thanks! i will answer you as soon as possible")
+    if (name && email && subject && description) {
+      console.log(name, email, subject, description)
+      resetInputValues()
+      window.alert("Thanks! i will answer you as soon as possible")
+    }
   }
 
   const resetInputValues = () => {
     document.forms["contactMeForm"].reset()
+    setName("")
+    setEmail("")
+    setSubject("")
+    setDescription("")
   }
 
   return (
@@ -107,7 +113,7 @@ const ContactMe = () => {
                 ></textarea>
               </div>
               <div className="button">
-                <button type="button" onClick={handleSubmitButton}>
+                <button type="submit" onClick={handleSubmitButton}>
                   تایید پیام
                 </button>
               </div>
