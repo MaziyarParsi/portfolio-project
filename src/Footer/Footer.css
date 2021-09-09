@@ -4,6 +4,9 @@
   background-color: #1b1916;
   color: white;
   padding: 0.8rem 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 .footer .icon {
   color: tomato;
