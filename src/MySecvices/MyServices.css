@@ -38,6 +38,7 @@
 }
 section.myServicesSection {
   padding: 4rem 0;
+  height: 100vh;
 }
 .myServicesSection {
   background-color: #1b1916;
