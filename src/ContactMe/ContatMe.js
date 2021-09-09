@@ -34,6 +34,11 @@ const ContactMe = () => {
     }
   }
 
+  const modalButton = () => {
+    setModalIsOpen(false)
+    document.getElementsByClassName("headerDiv")[0].classList.remove("remove")
+  }
+
   const resetInputValues = () => {
     document.forms["contactMeForm"].reset()
     setName("")
@@ -122,7 +127,7 @@ const ContactMe = () => {
                 </button>
                 <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} id="modal">
                   <h3>مرسی از پیامت، به زودی جوابت رو میدم</h3>
-                  <button onClick={() => setModalIsOpen(false)} className="modalButton">
+                  <button onClick={modalButton} className="modalButton">
                     باشه
                   </button>
                 </Modal>
