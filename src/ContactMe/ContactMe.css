@@ -31,6 +31,9 @@
 .contactMeSection {
   padding: 3rem 0;
 }
+.contactMeSection .container {
+  margin-top: 4rem;
+}
 
 .contactMeSection .contactMeContent {
   direction: rtl;

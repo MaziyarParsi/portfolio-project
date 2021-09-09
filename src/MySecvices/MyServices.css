@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 4rem 0;
+  margin: 6rem 0;
 }
 section.myServicesSection {
   padding: 4rem 0;
@@ -42,6 +42,9 @@ section.myServicesSection {
 .myServicesSection {
   background-color: #1b1916;
   color: #fff;
+}
+.myServicesSection .container {
+  margin-top: 2rem;
 }
 
 .myServicesSection .myServicesContent .card {
