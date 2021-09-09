@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./Header.css"
 import Logo from "../Logo/Logo"
-import { HashLink } from "react-router-hash-link"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   const [scroll, setScroll] = useState(false)
@@ -25,18 +25,21 @@ const Header = () => {
       <div className="container">
         <Logo />
         <ul className="headerMenu">
-          <HashLink to="/#contactMeSection" scroll={(el) => scrollWithOffset(el)}>
+          <Link to="/ContactMe">
             <li>ارتباط با من</li>
-          </HashLink>
-          <HashLink to="/#myServicesSection" scroll={(el) => scrollWithOffset(el)}>
+          </Link>
+
+          <Link to="/MyServices">
             <li>خدمات من</li>
-          </HashLink>
-          <HashLink to="/#aboutSection" scroll={(el) => scrollWithOffset(el)}>
+          </Link>
+
+          <Link to="/AboutSection">
             <li>درباره من</li>
-          </HashLink>
-          <HashLink to="/#heroSection" scroll={(el) => scrollWithOffset(el)}>
+          </Link>
+
+          <Link to="/">
             <li>خانه</li>
-          </HashLink>
+          </Link>
         </ul>
       </div>
     </div>

@@ -1,0 +1,18 @@
+.text1 {
+  font-size: 1.1rem;
+}
+.text2 {
+  font-size: 4.8rem;
+  font-weight: 500;
+}
+.text3 {
+  font-size: 1.7rem;
+}
+.typical {
+  color: #0077b6;
+  direction: rtl;
+}
+.heroTextArea {
+  margin-top: 5%;
+  text-align: right;
+}
