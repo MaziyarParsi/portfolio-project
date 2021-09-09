@@ -1,6 +1,6 @@
 .headerDiv {
   width: 100%;
-  z-index: 999;
+  z-index: 900;
   position: fixed;
   padding: 0.4rem 0rem;
   background: transparent;
@@ -35,4 +35,7 @@
   transition: ease-in-out 0.3s;
   color: #0077b6;
   cursor: pointer;
+}
+.remove {
+  display: none;
 }

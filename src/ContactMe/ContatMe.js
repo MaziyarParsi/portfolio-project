@@ -4,12 +4,15 @@ import "./ContactMe.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import Modal from "react-modal"
 
 const ContactMe = () => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [subject, setSubject] = useState("")
   const [description, setDescription] = useState("")
+
+  const [modalIsOpen, setModalIsOpen] = useState(false)
 
   const getNameInput = (event) => {
     setName(event.target.value)
@@ -25,9 +28,9 @@ const ContactMe = () => {
   }
   const handleSubmitButton = () => {
     if (name && email && subject && description) {
-      console.log(name, email, subject, description)
+      setModalIsOpen(true)
       resetInputValues()
-      window.alert("Thanks! i will answer you as soon as possible")
+      document.getElementsByClassName("headerDiv")[0].classList.add("remove")
     }
   }
 
@@ -117,6 +120,13 @@ const ContactMe = () => {
                 <button type="submit" onClick={handleSubmitButton}>
                   تایید پیام
                 </button>
+                <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} id="modal">
+                  <h3>مرسی از پیامت، به زودی جوابت رو میدم</h3>
+                  <button onClick={() => setModalIsOpen(false)} className="modalButton">
+                    {" "}
+                    باشه{" "}
+                  </button>
+                </Modal>
               </div>
             </form>
           </div>
