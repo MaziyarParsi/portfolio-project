@@ -117,14 +117,13 @@ const ContactMe = () => {
                 ></textarea>
               </div>
               <div className="button">
-                <button type="submit" onClick={handleSubmitButton}>
+                <button type="button" onClick={handleSubmitButton}>
                   تایید پیام
                 </button>
                 <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} id="modal">
                   <h3>مرسی از پیامت، به زودی جوابت رو میدم</h3>
                   <button onClick={() => setModalIsOpen(false)} className="modalButton">
-                    {" "}
-                    باشه{" "}
+                    باشه
                   </button>
                 </Modal>
               </div>

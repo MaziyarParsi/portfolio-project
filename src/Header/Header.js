@@ -25,16 +25,16 @@ const Header = () => {
       <div className="container">
         <Logo />
         <ul className="headerMenu">
-          <HashLink to="/ContactMe#contactMeSection" scroll={(el) => scrollWithOffset(el)}>
+          <HashLink to="/#contactMeSection" scroll={(el) => scrollWithOffset(el)}>
             <li>ارتباط با من</li>
           </HashLink>
-          <HashLink to="/MyServices#myServicesSection" scroll={(el) => scrollWithOffset(el)}>
+          <HashLink to="/#myServicesSection" scroll={(el) => scrollWithOffset(el)}>
             <li>خدمات من</li>
           </HashLink>
-          <HashLink to="/AboutSection#aboutSection" scroll={(el) => scrollWithOffset(el)}>
+          <HashLink to="/#aboutSection" scroll={(el) => scrollWithOffset(el)}>
             <li>درباره من</li>
           </HashLink>
-          <HashLink to="/HeroSection#heroSection" scroll={(el) => scrollWithOffset(el)}>
+          <HashLink to="/#heroSection" scroll={(el) => scrollWithOffset(el)}>
             <li>خانه</li>
           </HashLink>
         </ul>
