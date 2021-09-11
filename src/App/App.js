@@ -35,12 +35,6 @@ function App() {
             </Layout>
           </Route>
         </Switch>
-        {/* <Header />
-        <HeroSection />
-        <AboutSection />
-        <MyServices />
-        <ContactMe />
-        <Footer /> */}
       </BrowserRouter>
     </div>
   )
